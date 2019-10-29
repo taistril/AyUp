@@ -2,8 +2,8 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.phonegap.AyUp"
-    versionCode = "450"
-    version   = "3.0.0">
+    versionCode = "460"
+    version   = "4.6.0">
 
 <name>Ay Up</name>
 
@@ -19,6 +19,7 @@ taistril
 
  
      <!-- Customize your app and platform with the preference element. -->
+     <preference name="android-targetSdkVersion" value="28" />
      <!--  <preference name="phonegap-version"           value="3.7.0" />          all: current version of PhoneGap -->
      <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
      <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
